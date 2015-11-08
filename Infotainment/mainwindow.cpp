@@ -41,6 +41,6 @@ void MainWindow::on_pushButtonCarSettings_clicked()
     if(m_pCarSettingsDialog != nullptr)
     {
         m_pCarSettingsDialog->setModal(true);
-        m_pCarSettingsDialog->show();
+        m_pCarSettingsDialog->DisplayDialog();
     }
 }
