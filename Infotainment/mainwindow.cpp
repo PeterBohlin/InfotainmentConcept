@@ -30,11 +30,17 @@ void MainWindow::InitializeChildWindows()
 void MainWindow::on_pushButtonNavigation_clicked()
 {
     if(m_pNavigationDialog != nullptr)
+    {
+        m_pNavigationDialog->setModal(true);
         m_pNavigationDialog->show();
+    }
 }
 
 void MainWindow::on_pushButtonCarSettings_clicked()
 {
     if(m_pCarSettingsDialog != nullptr)
+    {
+        m_pCarSettingsDialog->setModal(true);
         m_pCarSettingsDialog->show();
+    }
 }

@@ -6,7 +6,7 @@ NavigationDialog::NavigationDialog(QWidget *parent) :
     ui(new Ui::NavigationDialog)
 {
     ui->setupUi(this);
-    ui->webViewNavigation->load(QUrl("http://www.volvocars.com/intl"));
+    ui->webViewNavigation->load(QUrl("https://www.google.se/maps"));
 }
 
 NavigationDialog::~NavigationDialog()
